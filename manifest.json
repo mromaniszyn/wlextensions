@@ -1,0 +1,12 @@
+{
+	"manifest_version": 2,
+	"name": "WebLayout Extensions",
+	"version": "1.0.0.0",
+	
+	"content_scripts": [
+	{
+		"matches": ["http://webbeta1.qg.com:8215/WebLayout/rc/USA/FormImposition*"],
+		"js": ["baseExtension.js", "generate.js"]
+	}
+	]
+}
